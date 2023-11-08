@@ -1,7 +1,7 @@
 var weather = require('openweather-apis');
 const convert = require('geo-coordinates-parser');
 
-
+import fetch from "node-fetch";
 // for testing
 // let lat = 51.557879;
 // let lon = -0.326162;
