@@ -1,0 +1,17 @@
+{
+  "name": "unity-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vihanpereraux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "geo-coordinates-parser": "^1.3.2",
+    "openweather-apis": "^4.5.0",
+    "socket.io": "^4.7.2"
+  }
+}
