@@ -1,9 +1,10 @@
 const express = require("express");
+// import { Express } from "express";
 const app = express();
 
 const forcast = require('./forcast.js');
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Application started and Listening on port 3000");
 });
 
