@@ -154,7 +154,7 @@ module.exports = {
         }
         location.push(
             [jsonFormat.city.name, jsonFormat.city.country],
-            [converted.decimalLatitude, converted.decimalLongitude]
+            [10.67, 19.78]
         )
         let testWeatherObj = [
             {
