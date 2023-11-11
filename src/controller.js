@@ -5,7 +5,7 @@ const app = express();
 const forcast = require('./forcast.js');
 
 app.listen(3001, () => {
-  console.log("Application started and Listening on port 3000");
+  console.log("Server is live and running on a Render instance");
 });
 
 
