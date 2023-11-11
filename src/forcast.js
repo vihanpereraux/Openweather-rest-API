@@ -84,7 +84,7 @@ module.exports = {
             }
             location.push(
                 [jsonFormat.city.name, jsonFormat.city.country],
-                [converted.decimalLatitude, converted.decimalLongitude]
+                [10.57, 10.57]
             )
             let testWeatherObj1 = [
                 {
@@ -105,7 +105,7 @@ module.exports = {
             }
             location.push(
                 [jsonFormat.city.name, jsonFormat.city.country],
-                [converted.decimalLatitude, converted.decimalLongitude]
+                [10.57, 10.57]
             )
 
             let badu1 = this.getTimeStampData(dayOneWeatherData, jsonFormat);
